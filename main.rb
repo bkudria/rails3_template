@@ -30,6 +30,7 @@ run "bundle install"
 generate "rspec:install"
 generate "cucumber:skeleton --capybara --rspec --spork"
 generate "simple_form_install"
+run "haml --rails ."
 run "gem install compass"
 run "compass init --using blueprint --app rails"
 
