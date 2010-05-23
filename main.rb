@@ -34,9 +34,9 @@ run "gem install compass"
 run "compass init --using blueprint --app rails"
 
 get "http://github.com/rails/jquery-ujs/raw/master/src/rails.js", "public/javascripts/rails.js"
-get "http://github.com/dcrec1/rails3_template/raw/master/gitignore" ,".gitignore" 
-get "http://github.com/dcrec1/rails3_template/raw/master/screen.scss", "app/stylesheets/screen.scss"
-get "http://github.com/dcrec1/rails3_template/raw/master/application.html.haml", "app/views/layouts/application.html.haml"
+get "http://github.com/ricardoalmeida/rails3_template/raw/master/gitignore" ,".gitignore" 
+get "http://github.com/ricardoalmeida/rails3_template/raw/master/screen.scss", "app/stylesheets/screen.scss"
+get "http://github.com/ricardoalmeida/rails3_template/raw/master/application.html.haml", "app/views/layouts/application.html.haml"
 
 git :init
 git :add => '.'
