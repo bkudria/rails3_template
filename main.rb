@@ -4,7 +4,7 @@ gem 'haml', '>=3.0.4'
 gem 'inherited_resources', '>=1.1.2'
 gem 'will_paginate', '>=3.0.pre'
 gem 'devise', '>=1.1.rc1'
-gem 'formtastic', '>=0.9.8'
+gem 'simple_form'
 gem "compass", ">= 0.10.1"
 
 gem 'rspec', '>=2.0.0.beta.8', :group => :test
@@ -29,6 +29,7 @@ GENERATORS
 run "bundle install"
 generate "rspec:install"
 generate "cucumber:skeleton --capybara --rspec --spork"
+generate "simple_form_install"
 run "gem install compass"
 run "compass init --using blueprint --app rails"
 
